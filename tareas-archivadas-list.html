@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+
+
+<head th:replace="fragments/componentes/plantilla :: head"></head>
+
+<body class="horizontal-layout horizontal-menu 2-columns  " data-open="hover" data-menu="horizontal-menu"
+	data-col="2-columns">
+	<div class="app-content content">
+		<div class="content-overlay"></div>
+		<div class="content-wrapper">
+			<div class="content-header row">
+				<div class="content-header-left col-md-6 col-12 mb-2">
+					<h3 class="content-header-title">Gestión de Tareas Archivadas</h3>
+					<div class="row breadcrumbs-top">
+						<div class="breadcrumb-wrapper col-12">
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item">
+									<a th:href="@{/home}">Home</a>
+								</li>
+								<li class="breadcrumb-item active">Tareas</li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
