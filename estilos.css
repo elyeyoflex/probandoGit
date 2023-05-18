@@ -1,0 +1,8 @@
+.cabecera {
+    background-color: #3498db; /* Color de fondo azul */
+    height: 20px; /* Altura de la cabecera */
+}
+
+body{
+    font-family: Courier;
+}
